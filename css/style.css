@@ -106,3 +106,51 @@
     margin-top: 70px;
     margin-left: 140px;
 }
+
+/*-------- work section --------*/
+
+.work-section{
+    height: 100vh;
+    background-color: rgb(239, 239, 247);
+}
+
+.work-section h2{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.work-parent-child{
+    height: 50%;
+    width: 80%;
+    margin: 130px auto;
+}
+
+.work-child{
+    width: 28%;
+    height: 90%;
+    background-color: #fcfcfc;
+    float: left;
+    border-radius: 20px;
+    padding: 12px;
+    margin-left: 20px;
+}
+
+.work-child a img{
+    width: 100%;
+}
+
+.work-child h3{
+    line-height: 10px;
+}
+
+.work-child h3 a{
+    text-decoration: none;
+    color: #f5a560;
+}
+
+.work-child p{
+    font-size: 13px;
+    color: rgb(97, 94, 94);
+}
