@@ -228,8 +228,42 @@
     position: relative;
     top: 39%;
     right: 50px;
+    background-color: #4b3dc7;
 }
 
 #shadow-out{
-    box-shadow: none;
+    box-shadow: 1px 1px 7px white,
+                -1px -1px 7px white;
+}
+
+/*-------- contact section --------*/
+
+.contact-section{
+    width: 50%;
+    height: 30vh;
+    margin: auto;
+}
+
+.contact-section h2{
+    text-align: center;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+}
+
+.contact-section h3{
+    text-align: center;
+    color: rgb(97, 94, 94);
+}
+
+.contact-img{
+    width: 160px;
+    margin: auto;
+}
+
+.contact-img img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 50px;
 }
