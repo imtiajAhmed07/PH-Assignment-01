@@ -161,18 +161,27 @@
     height: 90vh;
 }
 
+.blog-txt{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(97, 94, 94);
+    position: relative;
+    top: 5%;
+}
+
 .blog-child{
     height: 400px;
     width: 40%;
     padding-left: 2%;
     margin-left: 5%;
     position: relative;
-    top: 20%;
+    top: 10%;
     float: left;
 }
 
 .blog-child h2{
     color: rgb(97, 94, 94);
+    line-height: 45px;
 }
 
 .blog-child img{
@@ -183,12 +192,13 @@
 
 #blog-content{
     position: relative;
-    top: 23%;
+    top: 3.5%;
     left: 2%;
 }
 
 .unorder-child li{
     color: rgb(97, 94, 94);
+    line-height: 35px;
 }
 
 #blog-btn{
