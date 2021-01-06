@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*-------- navbar --------*/
@@ -9,7 +9,6 @@
 .navbar{
     height: 50px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .navbar-list{
@@ -67,7 +66,6 @@
     padding: 10px 30px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px gray;
-    font-weight: 500;
 }
 
 #Fsection-child{
@@ -116,6 +114,7 @@
 
 .work-section h2{
     font-size: 30px;
+    color:  rgb(97, 94, 94);
     text-align: center;
     position: relative;
     top: 70px;
@@ -135,6 +134,7 @@
     border-radius: 20px;
     padding: 12px;
     margin-left: 20px;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .work-child a img{
@@ -153,4 +153,83 @@
 .work-child p{
     font-size: 13px;
     color: rgb(97, 94, 94);
+}
+
+/*-------- blog section --------*/
+
+.blog-section{
+    height: 90vh;
+}
+
+.blog-child{
+    height: 400px;
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    position: relative;
+    top: 20%;
+    float: left;
+}
+
+.blog-child h2{
+    color: rgb(97, 94, 94);
+}
+
+.blog-child img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 50px 50px 10px rgb(236, 236, 236);
+}
+
+#blog-content{
+    position: relative;
+    top: 23%;
+    left: 2%;
+}
+
+.unorder-child li{
+    color: rgb(97, 94, 94);
+}
+
+#blog-btn{
+    position: relative;
+    top: 7%;
+}
+
+/*-------- inquiry section --------*/
+
+.inquiry-section{
+    height: 300px;
+}
+
+.inquiry-child{
+    width: 60%;
+    height: 30vh;
+    background-image: url(../images/inquiry-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    top: 18%;
+}
+
+.inquiry-child h1{
+    font-size: 30px;
+    line-height: 0px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 37%;
+    left: 50px;
+}
+
+.inquiry-child .click-btn{
+    float: right;
+    position: relative;
+    top: 39%;
+    right: 50px;
+}
+
+#shadow-out{
+    box-shadow: none;
 }
